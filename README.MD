@@ -10,27 +10,27 @@ npm install cordova -g
 cordova platform add android  
 cordova platform add browser  
 
-检测平台需要：
+检测平台需要：  
 cordova requirements
 安卓推荐使用android studio安装sdk
 
 ### 开发
-浏览器：
-npm run dev 或
-npm run browser 或
-cordova run browser -- --lr
-安卓：
-npm run android 或
-cordova run android
-自动刷新
-npm run android-lr 或
-cordova run android -- --lr (自动刷新)
+浏览器：  
+npm run dev 或  
+npm run browser 或  
+cordova run browser -- --lr  
+安卓：  
+npm run android 或  
+cordova run android  
+自动刷新  
+npm run android-lr 或  
+cordova run android -- --lr (自动刷新)  
 ps: 安卓自动刷新，模拟器可以。使用真机时稍有问题，手机和电脑在同一wifi下，公司wifi不可以，手机开热点电脑连接的情况可以，原因不明。
 
 ### 打包
-npm run build 或
-cordova build android
-cordova build browser
+npm run build 或  
+cordova build android  
+cordova build browser  
 
 ### api地址
 deploy_conf/config.js
