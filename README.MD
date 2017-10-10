@@ -3,8 +3,9 @@
 暂时未支持ios
 
 ### 安装依赖
-npm install
-npm install cordova -g
+npm install  
+npm install -g cordova  
+(这个我用cnpm安装出过错，建议不用，使用npm install -g cordova --registry=https://registry.npm.taobao.org)
 
 ### 添加平台
 cordova platform add android  
